@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@400;500;600;700;800&display=swap');
+@import './App.css';
+@import './Admin.css';
+*{box-sizing:border-box}html,body,app-root{margin:0;min-width:320px;min-height:100%;font-family:'DM Sans',sans-serif;color:#292621;background:#f6f4ef}button,input,textarea{font:inherit}button{cursor:pointer}svg{width:19px;height:19px}h1,h2,h3,p{margin-top:0}lucide-icon{display:inline-flex;align-items:center;justify-content:center}
+
+/* Tipografía amable y redondeada para el acceso */
+.login,.login button,.login input{font-family:'Nunito','DM Sans',sans-serif}
+.login .brand h1,.login .loginform h2,.login .logo{font-family:'Nunito','DM Sans',sans-serif;font-weight:800;letter-spacing:-.025em}
+.login .brand h1{line-height:1.05}
+.login .loginform h2{font-weight:800}
+.login input{font-weight:600}
+
+/* Misma identidad tipográfica en la selección de unidad */
+.select,.select button,.select input{font-family:'Nunito','DM Sans',sans-serif}
+.select h1,.select h3,.select .logo{font-family:'Nunito','DM Sans',sans-serif;font-weight:800;letter-spacing:-.025em}
+.select h1{line-height:1.08}
+.select .units p,.select .units small,.select .profile{letter-spacing:.005em}

@@ -1,16 +1,25 @@
-# React + Vite
+# La Ramadita
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Sistema de operación y administración de La Ramadita.
 
-Currently, two official plugins are available:
+- `src/`: frontend Angular.
+- `backend/`: API Spring Boot con el primer módulo de categorías y productos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Las instrucciones para crear la base de datos SQL Server, configurar las variables de entorno, ejecutar la API y probar sus endpoints están en [backend/README.md](backend/README.md).
 
-## React Compiler
+## Frontend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm start
+```
 
-## Expanding the Oxlint configuration
+Abre `http://localhost:4200`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Compilación
+
+```bash
+npm run build
+```
+
+El resultado se genera en `dist/proyecto-adm/browser`.
